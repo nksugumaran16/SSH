@@ -1,0 +1,15 @@
+pipeline{
+	agent {
+	    label 'test-sh'
+	}
+	stages{
+	stage('Run Shell script'){
+		steps{
+			sh """
+				cd swaggerhub1
+				./build.sh
+			"""
+                    }
+         }
+   }
+}
