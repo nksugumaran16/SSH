@@ -1,12 +1,12 @@
 pipeline{
 	agent {
-	    label 'test-sh'
+	    label 'Shell script'
 	}
 	stages{
 	stage('Run Shell script'){
 		steps{
 			sh """
-				cd swaggerhub1
+				cd Auto
 				./build.sh
 			"""
                     }
