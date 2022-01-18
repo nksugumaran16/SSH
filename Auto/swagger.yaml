@@ -153,7 +153,7 @@ paths:
       - pet
       summary: Find pet by ID
       description: Returns a single pet
-      operationId: getPetByNewIdss
+      operationId: getPetByNewId
       parameters:
       - name: petId
         in: path
