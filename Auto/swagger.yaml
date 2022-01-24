@@ -54,7 +54,7 @@ paths:
       tags:
       - pet
       summary: Add a new pet to the store
-      operationId: addPet
+      operationId: addPe
       requestBody:
         $ref: '#/components/requestBodies/Pet'
       responses:
