@@ -54,7 +54,7 @@ paths:
       tags:
       - pet
       summary: Add a new pet to the store
-      operationId: addPe
+      operationId: addPet
       requestBody:
         $ref: '#/components/requestBodies/Pet'
       responses:
@@ -163,7 +163,7 @@ paths:
         explode: false
         schema:
           type: integer
-          format: int64
+          format: Long
       responses:
         "200":
           description: successful operation
